@@ -143,7 +143,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<mainClass>
-								com.nutech.test.sims.ppob.SimsPpobServiceApplication</mainClass>
+								com.nutech.test.sims.ppob.SimsPpobApplication</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
