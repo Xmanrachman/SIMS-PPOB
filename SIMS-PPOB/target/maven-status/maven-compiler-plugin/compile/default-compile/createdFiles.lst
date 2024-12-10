@@ -37,6 +37,7 @@ com/nutech/test/sims/ppob/dto/response/result/ResponseTransactionServiceDto.clas
 com/nutech/test/sims/ppob/repository/UserRepository.class
 com/nutech/test/sims/ppob/response/ResponseService.class
 com/nutech/test/sims/ppob/controller/user/InqueryUserController.class
+com/nutech/test/sims/ppob/service/utility/DataSourceConfig.class
 com/nutech/test/sims/ppob/authapi/impl/UserServiceImpl$1.class
 com/nutech/test/sims/ppob/authapi/interfaces/UserServiceInterface.class
 com/nutech/test/sims/ppob/controller/servicePPOB/InqueryServicePPOBController.class
