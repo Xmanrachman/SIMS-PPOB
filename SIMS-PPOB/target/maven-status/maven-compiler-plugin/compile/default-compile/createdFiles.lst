@@ -32,7 +32,6 @@ com/nutech/test/sims/ppob/response/ResponseBanner.class
 com/nutech/test/sims/ppob/controller/profile/InqueryProfileController.class
 com/nutech/test/sims/ppob/dto/master/user/EntryUserRequestDto.class
 com/nutech/test/sims/ppob/service/master/InqueryBannerService.class
-com/nutech/test/sims/ppob/SimsPpobServiceApplication.class
 com/nutech/test/sims/ppob/dao/model/history/TransactionHistoryEntity.class
 com/nutech/test/sims/ppob/dto/response/result/ResponseTransactionServiceDto.class
 com/nutech/test/sims/ppob/repository/UserRepository.class
