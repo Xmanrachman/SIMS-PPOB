@@ -28,11 +28,12 @@ import lombok.RequiredArgsConstructor;
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 	
 	@Autowired
-	private final HandlerExceptionResolver handlerExceptionResolver;
+	private HandlerExceptionResolver handlerExceptionResolver;
 	@Autowired
-    private final JwtServiceInterface jwtService;
+    private JwtServiceInterface jwtService;
     @Autowired
-    private final UserServiceInterface userService;
+    private UserServiceInterface userService;
+    
 
     @Override
     protected void doFilterInternal(@NonNull HttpServletRequest request,@NonNull HttpServletResponse response,@NonNull FilterChain filterChain) throws ServletException, IOException {
