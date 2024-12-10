@@ -2,6 +2,7 @@ package com.nutech.test.sims.ppob.authapi.config;
 
 import java.io.IOException;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.lang.NonNull;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -26,8 +27,10 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 	
+	@Autowired
 	private final HandlerExceptionResolver handlerExceptionResolver;
     private final JwtServiceInterface jwtService;
+    @Autowired
     private final UserServiceInterface userService;
 
     @Override
