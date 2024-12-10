@@ -13,9 +13,9 @@ public class DataSourceConfig {
     public DataSource getDataSource() {
         return DataSourceBuilder.create()
           .driverClassName("org.postgresql.Driver")
-          .url("jdbc:postgresql://localhost:5432/db_simsppop")
-          .username("newuser")
-          .password("password123")
+          .url("jdbc:postgresql://postgres.railway.internal:5432/railway")
+          .username("postgres")
+          .password("SouTFotXVRMCqBeMRWskmRtlfrtVdfAi")
           .build();	
     }
 }
