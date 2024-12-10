@@ -29,6 +29,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 	
 	@Autowired
 	private final HandlerExceptionResolver handlerExceptionResolver;
+	@Autowired
     private final JwtServiceInterface jwtService;
     @Autowired
     private final UserServiceInterface userService;
